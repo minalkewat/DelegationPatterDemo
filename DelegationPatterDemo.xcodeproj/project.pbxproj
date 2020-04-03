@@ -15,6 +15,8 @@
 		18B657172437277C00ED8F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B657152437277C00ED8F47 /* LaunchScreen.storyboard */; };
 		18B657222437277C00ED8F47 /* DelegationPatterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B657212437277C00ED8F47 /* DelegationPatterDemoTests.swift */; };
 		18B6572D2437277C00ED8F47 /* DelegationPatterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6572C2437277C00ED8F47 /* DelegationPatterDemoUITests.swift */; };
+		18B6573B243727C900ED8F47 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6573A243727C900ED8F47 /* ViewControllerA.swift */; };
+		18B6573D2437282B00ED8F47 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6573C2437282B00ED8F47 /* ViewControllerB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		18B657282437277C00ED8F47 /* DelegationPatterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationPatterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B6572C2437277C00ED8F47 /* DelegationPatterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationPatterDemoUITests.swift; sourceTree = "<group>"; };
 		18B6572E2437277C00ED8F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B6573A243727C900ED8F47 /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		18B6573C2437282B00ED8F47 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		18B657092437277A00ED8F47 /* DelegationPatterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18B6573C2437282B00ED8F47 /* ViewControllerB.swift */,
+				18B6573A243727C900ED8F47 /* ViewControllerA.swift */,
 				18B6570A2437277A00ED8F47 /* AppDelegate.swift */,
 				18B6570C2437277A00ED8F47 /* SceneDelegate.swift */,
 				18B6570E2437277A00ED8F47 /* ViewController.swift */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B6573B243727C900ED8F47 /* ViewControllerA.swift in Sources */,
 				18B6570F2437277A00ED8F47 /* ViewController.swift in Sources */,
+				18B6573D2437282B00ED8F47 /* ViewControllerB.swift in Sources */,
 				18B6570B2437277A00ED8F47 /* AppDelegate.swift in Sources */,
 				18B6570D2437277A00ED8F47 /* SceneDelegate.swift in Sources */,
 			);
